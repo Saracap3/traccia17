@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Vipiteno</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Logo in alto */
+        .logo {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .logo img {
+            max-width: 90%;
+            height: auto;
+            max-height: 200px;
+        }
+
+        /* Immagine sotto al logo */
+        .hero-image {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Centro pagina */
+        .center {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        /* Testo prima del pulsante */
+        .text-content {
+            margin: 0 100px 30px 100px;
+            text-align: center;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        /* Pulsante */
+        .btn {
+            padding: 16px 32px;
+            font-size: 1.1rem;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            width: 80%;
+            max-width: 320px;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+            .logo {
+                margin-top: 20px;
+            }
+
+            .center {
+                padding: 20px;
+            }
+
+            .text-content {
+                margin: 0 20px 25px 20px;
+            }
+        }
+		
+		/* Testo sotto al pulsante */
+.btn-text {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+}
+
+
+    </style>
+</head>
+<body>
+
+    <!-- Logo -->
+    <div class="logo">
+        <img src="https://www.forensically.it/vipiteno/Latteria_Vipiteno.jpg" alt="Logo">
+    </div>
+
+    <!-- Immagine sotto al logo -->
+    <div class="hero-image">
+        <img src="https://www.forensically.it/vipiteno/vipiteno_hero.jpg" alt="Immagine descrittiva">
+    </div>
+
+    <!-- Contenuto centrale -->
+    <div class="center">
+
+        <!-- Testo prima del pulsante -->
+        <div class="text-content">
+            <p>Il <strong>Bilancio di Sostenibilità 2023 di Latteria Vipiteno</strong> racconta il percorso  della Cooperativa per integrare la sostenibilità nel proprio modello di business. <br/>
+			Il report approfondisce i risultati in ambito ambientale, sociale e di governance e individua 16 temi prioritari per l'azienda e i suoi stakeholder. All'interno del documento vengono presentati l'impegno a favore dei soci allevatori e della filiera locale, le iniziative per la qualità dei prodotti e la loro sicurezza, i programmi di formazione, welfare e salute per i dipendenti, oltre alle azioni di riduzione degli impatti ambientali, come la gestione dell'energia, delle risorse e dei rifiuti. Non sono  trascurati  etica e compliance, confermando la centralità della trasparenza e della responsabilità nelle scelte aziendali. Redatto secondo i GRI Standards, il documento offre una visione completa e misurabile dei risultati 2023 e degli impegni futuri, in coerenza con i valori cooperativi e il forte legame con il territorio.</p>
+
+Scarica il Bilancio di Sostenibilità 2023 e scopri nel dettaglio come Latteria Vipiteno trasforma i valori in azioni concrete*.
+        </div>
+
+        <!-- Pulsante -->
+        <a href="https://www.forensically.it/vipiteno/Latteria%20Vipiteno%20Bilancio%20di%20Sostenibilit%C3%A0%20%28Documento%20A5%29%20versione%20web.pdf" 
+           target="_blank" 
+           class="btn">
+            Clicca qui
+        </a>
+		
+		<div class="btn-text">
+* <em>Il materiale utilizzato e le informazioni contenute in questa pagina sono state elaborate esclusivamente ai fini didattici.</em>
+</div>
+
+    </div>
+
+</body>
+</html>
